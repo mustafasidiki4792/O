@@ -4,11 +4,6 @@ import subprocess
 import asyncio
 import platform
 import random
-import string
-from telegram import Update
-from telegram.ext import Application, CommandHandler, CallbackContext, filters, MessageHandler
-from pymongo import MongoClient
-from datetime import datetime, timedelta, timezone
 
 # Database Configuration
 MONGO_URI = 'mongodb+srv://Magic:Spike@cluster0.fa68l.mongodb.net/TEST?retryWrites=true&w=majority&appName=Cluster0'
