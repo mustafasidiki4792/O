@@ -7,7 +7,7 @@ import random
 
 # Database Configuration
 MONGO_URI = 'mongodb+srv://Magic:Spike@cluster0.fa68l.mongodb.net/TEST?retryWrites=true&w=majority&appName=Cluster0'
-db = client['TEST']
+db = ['TEST']
 users_collection = db['users']
 settings_collection = db['settings-V9']  # A new collection to store global settings
 redeem_codes_collection = db['redeem_codes']
